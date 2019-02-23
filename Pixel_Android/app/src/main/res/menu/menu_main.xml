@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item
+        android:id="@+id/matrix"
+        android:title="Grid"
+        android:icon="@drawable/grid"
+        android:showAsAction="always">
+    </item>
+    <item
+        android:id="@+id/con_diag"
+        android:title="Connection"
+        android:icon="@drawable/connection"
+        android:showAsAction="ifRoom">
+    </item>
+    <item android:title="Animations"
+        android:id="@+id/anim"
+        android:showAsAction="ifRoom" />
+
+</menu>
