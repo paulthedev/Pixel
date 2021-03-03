@@ -1,0 +1,15 @@
+C:\Users\Paul\source\repos\PixelMatter\PixelMatter\PixelMatter\bin\Debug\netstandard2.0\PixelMatter.deps.json
+C:\Users\Paul\source\repos\PixelMatter\PixelMatter\PixelMatter\bin\Debug\netstandard2.0\PixelMatter.dll
+C:\Users\Paul\source\repos\PixelMatter\PixelMatter\PixelMatter\bin\Debug\netstandard2.0\ref\PixelMatter.dll
+C:\Users\Paul\source\repos\PixelMatter\PixelMatter\PixelMatter\bin\Debug\netstandard2.0\PixelMatter.pdb
+C:\Users\Paul\source\repos\PixelMatter\PixelMatter\PixelMatter\obj\Debug\netstandard2.0\PixelMatter.csprojAssemblyReference.cache
+C:\Users\Paul\source\repos\PixelMatter\PixelMatter\PixelMatter\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Paul\source\repos\PixelMatter\PixelMatter\PixelMatter\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Paul\source\repos\PixelMatter\PixelMatter\PixelMatter\obj\Debug\netstandard2.0\PixelMatter.AssemblyInfoInputs.cache
+C:\Users\Paul\source\repos\PixelMatter\PixelMatter\PixelMatter\obj\Debug\netstandard2.0\PixelMatter.AssemblyInfo.cs
+C:\Users\Paul\source\repos\PixelMatter\PixelMatter\PixelMatter\obj\Debug\netstandard2.0\PixelMatter.csproj.CoreCompileInputs.cache
+C:\Users\Paul\source\repos\PixelMatter\PixelMatter\PixelMatter\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Paul\source\repos\PixelMatter\PixelMatter\PixelMatter\obj\Debug\netstandard2.0\PixelMatter.dll
+C:\Users\Paul\source\repos\PixelMatter\PixelMatter\PixelMatter\obj\Debug\netstandard2.0\ref\PixelMatter.dll
+C:\Users\Paul\source\repos\PixelMatter\PixelMatter\PixelMatter\obj\Debug\netstandard2.0\PixelMatter.pdb
+C:\Users\Paul\source\repos\PixelMatter\PixelMatter\PixelMatter\obj\Debug\netstandard2.0\dist\styles.css.g.cs

@@ -1,0 +1,105 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>portable</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="ClientApp\node_modules\**" />
+    <EmbeddedResource Remove="ClientApp\node_modules\**" />
+    <None Remove="ClientApp\node_modules\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="dist\favicon.ico" />
+    <None Remove="dist\flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2" />
+    <None Remove="dist\index.html" />
+    <None Remove="dist\KFOlCnqEu92Fr1MmEU9fABc4EsA.woff2" />
+    <None Remove="dist\KFOlCnqEu92Fr1MmEU9fBBc4.woff2" />
+    <None Remove="dist\KFOlCnqEu92Fr1MmEU9fBxc4EsA.woff2" />
+    <None Remove="dist\KFOlCnqEu92Fr1MmEU9fCBc4EsA.woff2" />
+    <None Remove="dist\KFOlCnqEu92Fr1MmEU9fChc4EsA.woff2" />
+    <None Remove="dist\KFOlCnqEu92Fr1MmEU9fCRc4EsA.woff2" />
+    <None Remove="dist\KFOlCnqEu92Fr1MmEU9fCxc4EsA.woff2" />
+    <None Remove="dist\KFOlCnqEu92Fr1MmSU5fABc4EsA.woff2" />
+    <None Remove="dist\KFOlCnqEu92Fr1MmSU5fBBc4.woff2" />
+    <None Remove="dist\KFOlCnqEu92Fr1MmSU5fBxc4EsA.woff2" />
+    <None Remove="dist\KFOlCnqEu92Fr1MmSU5fCBc4EsA.woff2" />
+    <None Remove="dist\KFOlCnqEu92Fr1MmSU5fChc4EsA.woff2" />
+    <None Remove="dist\KFOlCnqEu92Fr1MmSU5fCRc4EsA.woff2" />
+    <None Remove="dist\KFOlCnqEu92Fr1MmSU5fCxc4EsA.woff2" />
+    <None Remove="dist\KFOmCnqEu92Fr1Mu4mxK.woff2" />
+    <None Remove="dist\KFOmCnqEu92Fr1Mu4WxKOzY.woff2" />
+    <None Remove="dist\KFOmCnqEu92Fr1Mu5mxKOzY.woff2" />
+    <None Remove="dist\KFOmCnqEu92Fr1Mu72xKOzY.woff2" />
+    <None Remove="dist\KFOmCnqEu92Fr1Mu7GxKOzY.woff2" />
+    <None Remove="dist\KFOmCnqEu92Fr1Mu7mxKOzY.woff2" />
+    <None Remove="dist\KFOmCnqEu92Fr1Mu7WxKOzY.woff2" />
+    <None Remove="dist\lightGrid-lightGrid-module.js" />
+    <None Remove="dist\lightGrid-lightGrid-module.js.map" />
+    <None Remove="dist\main.js" />
+    <None Remove="dist\main.js.map" />
+    <None Remove="dist\polyfills.js" />
+    <None Remove="dist\polyfills.js.map" />
+    <None Remove="dist\runtime.js" />
+    <None Remove="dist\runtime.js.map" />
+    <None Remove="dist\settings-settings-module.js" />
+    <None Remove="dist\settings-settings-module.js.map" />
+    <None Remove="dist\styles.css.map" />
+    <None Remove="dist\vendor.js" />
+    <None Remove="dist\vendor.js.map" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="dist\favicon.ico" />
+    <EmbeddedResource Include="dist\flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2" />
+    <EmbeddedResource Include="dist\index.html" />
+    <EmbeddedResource Include="dist\KFOlCnqEu92Fr1MmEU9fABc4EsA.woff2" />
+    <EmbeddedResource Include="dist\KFOlCnqEu92Fr1MmEU9fBBc4.woff2" />
+    <EmbeddedResource Include="dist\KFOlCnqEu92Fr1MmEU9fBxc4EsA.woff2" />
+    <EmbeddedResource Include="dist\KFOlCnqEu92Fr1MmEU9fCBc4EsA.woff2" />
+    <EmbeddedResource Include="dist\KFOlCnqEu92Fr1MmEU9fChc4EsA.woff2" />
+    <EmbeddedResource Include="dist\KFOlCnqEu92Fr1MmEU9fCRc4EsA.woff2" />
+    <EmbeddedResource Include="dist\KFOlCnqEu92Fr1MmEU9fCxc4EsA.woff2" />
+    <EmbeddedResource Include="dist\KFOlCnqEu92Fr1MmSU5fABc4EsA.woff2" />
+    <EmbeddedResource Include="dist\KFOlCnqEu92Fr1MmSU5fBBc4.woff2" />
+    <EmbeddedResource Include="dist\KFOlCnqEu92Fr1MmSU5fBxc4EsA.woff2" />
+    <EmbeddedResource Include="dist\KFOlCnqEu92Fr1MmSU5fCBc4EsA.woff2" />
+    <EmbeddedResource Include="dist\KFOlCnqEu92Fr1MmSU5fChc4EsA.woff2" />
+    <EmbeddedResource Include="dist\KFOlCnqEu92Fr1MmSU5fCRc4EsA.woff2" />
+    <EmbeddedResource Include="dist\KFOlCnqEu92Fr1MmSU5fCxc4EsA.woff2" />
+    <EmbeddedResource Include="dist\KFOmCnqEu92Fr1Mu4mxK.woff2" />
+    <EmbeddedResource Include="dist\KFOmCnqEu92Fr1Mu4WxKOzY.woff2" />
+    <EmbeddedResource Include="dist\KFOmCnqEu92Fr1Mu5mxKOzY.woff2" />
+    <EmbeddedResource Include="dist\KFOmCnqEu92Fr1Mu72xKOzY.woff2" />
+    <EmbeddedResource Include="dist\KFOmCnqEu92Fr1Mu7GxKOzY.woff2" />
+    <EmbeddedResource Include="dist\KFOmCnqEu92Fr1Mu7mxKOzY.woff2" />
+    <EmbeddedResource Include="dist\KFOmCnqEu92Fr1Mu7WxKOzY.woff2" />
+    <EmbeddedResource Include="dist\lightGrid-lightGrid-module.js" />
+    <EmbeddedResource Include="dist\lightGrid-lightGrid-module.js.map" />
+    <EmbeddedResource Include="dist\main.js" />
+    <EmbeddedResource Include="dist\main.js.map" />
+    <EmbeddedResource Include="dist\polyfills.js" />
+    <EmbeddedResource Include="dist\polyfills.js.map" />
+    <EmbeddedResource Include="dist\runtime.js" />
+    <EmbeddedResource Include="dist\runtime.js.map" />
+    <EmbeddedResource Include="dist\settings-settings-module.js" />
+    <EmbeddedResource Include="dist\settings-settings-module.js.map" />
+    <EmbeddedResource Include="dist\styles.css.map" />
+    <EmbeddedResource Include="dist\vendor.js" />
+    <EmbeddedResource Include="dist\vendor.js.map" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EmbedIO" Version="3.4.3" />
+    <PackageReference Include="Xam.Plugin.WebView" Version="2.1.3" />
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2012" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.6.1" />
+  </ItemGroup>
+</Project>
