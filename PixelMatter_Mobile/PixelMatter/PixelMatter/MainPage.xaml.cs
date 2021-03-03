@@ -15,5 +15,11 @@ namespace PixelMatter
             InitializeComponent();
             BindingContext = new ViewModel();
         }
+
+        protected override bool OnBackButtonPressed()
+        {
+            webView.GoBack();
+            return true;
+        }
     }
 }
