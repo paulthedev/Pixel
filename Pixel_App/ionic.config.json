@@ -1,0 +1,7 @@
+{
+  "name": "Pixel",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
