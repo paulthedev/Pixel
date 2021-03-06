@@ -2,8 +2,11 @@ import { IonicModule } from '@ionic/angular';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { GifLoaderPage } from './gif-loader.page';
 import { GifLoaderPageRoutingModule } from './gif-loader-routing.module';
+
+import {GifTypeSelectComponent} from './gif-type-select/gif-type-select.component';
+import {GiphyComponent} from './giphy/giphy.component';
+import {SavedGifsComponent} from './saved-gifs/saved-gifs.component';
 
 @NgModule({
   imports: [
@@ -12,6 +15,6 @@ import { GifLoaderPageRoutingModule } from './gif-loader-routing.module';
     FormsModule,
     GifLoaderPageRoutingModule
   ],
-  declarations: [GifLoaderPage]
+  declarations: [GifTypeSelectComponent,GiphyComponent,SavedGifsComponent]
 })
 export class GifLoaderPageModule {}
