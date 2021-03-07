@@ -2,7 +2,11 @@ import { IonicModule } from '@ionic/angular';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { LightGridPage } from './light-grid.page';
+import { MatrixComponent } from './matrix/matrix.component';
+import { CanvasWhiteboardModule } from 'ng2-canvas-whiteboard';
+
+import { ColorHueModule } from 'ngx-color/hue';
+import { ColorShadeModule } from 'ngx-color/shade';
 
 import { LightGridPageRoutingModule } from './light-grid-routing.module';
 
@@ -11,8 +15,11 @@ import { LightGridPageRoutingModule } from './light-grid-routing.module';
     IonicModule,
     CommonModule,
     FormsModule,
-    LightGridPageRoutingModule
+    ColorHueModule,
+    ColorShadeModule,
+    CanvasWhiteboardModule,
+    LightGridPageRoutingModule,
   ],
-  declarations: [LightGridPage]
+  declarations: [MatrixComponent],
 })
 export class LightGridPageModule {}

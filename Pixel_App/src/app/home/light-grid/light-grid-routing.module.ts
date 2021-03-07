@@ -1,11 +1,15 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { LightGridPage } from './light-grid.page';
+import { MatrixComponent } from './matrix/matrix.component';
 
 const routes: Routes = [
   {
     path: '',
-    component: LightGridPage,
+    component: MatrixComponent
+  },
+  {
+    path: 'matrix',
+    component: MatrixComponent
   }
 ];
 
