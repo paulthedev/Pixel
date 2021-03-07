@@ -9,8 +9,18 @@
   >
   </canvas-whiteboard>
 </div>
-<color-hue-picker class="hue-picker" width="100%" [color]="hueColor" (onChangeComplete)="hueChangeComplete($event)"></color-hue-picker>
-<color-shade-picker class="shade-picker" width="100%" [color]="shadeColor" (onChangeComplete)="shadeChangeComplete($event)"></color-shade-picker>
+<color-hue-picker
+  class="hue-picker"
+  width="100%"
+  [color]="hueColor"
+  (onChangeComplete)="hueChangeComplete($event)"
+></color-hue-picker>
+<color-shade-picker
+  class="shade-picker"
+  width="100%"
+  [color]="shadeColor"
+  (onChangeComplete)="shadeChangeComplete($event)"
+></color-shade-picker>
 <ion-content>
   <ion-fab vertical="bottom" horizontal="end" slot="fixed">
     <ion-fab-button (click)="openColorPicker()">

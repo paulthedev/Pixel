@@ -1,15 +1,20 @@
 .whiteboard-container {
-  margin: 5vw;
-  height: 90vw;
-  width: 90vw;
+  margin: 10vw;
+  height: 80vw;
+  width: 80vw;
 }
 
-.hue-picker{
-  margin: 5vw;
-  width: 90vw;
+.hue-picker {
+  margin: 0 10vw 5vw 10vw;
+  width: 80vw;
 }
 
-.shade-picker{
-  margin: 5vw;
-  width: 90vw;
+.shade-picker {
+  margin: 0 10vw 5vw 10vw;
+  width: 80vw;
+}
+
+.fab-container{
+  margin: 0 10vw 0 10vw;
+  width: 80vw;
 }
